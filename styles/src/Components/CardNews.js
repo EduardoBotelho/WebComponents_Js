@@ -1,4 +1,4 @@
-class Cardnews extends HTMLElement {
+class CardNews extends HTMLElement {
     constructor() {
         super();
         const shadow = this.attachShadow({ mode: 'open' });
@@ -86,4 +86,4 @@ class Cardnews extends HTMLElement {
 }
 
 
-customElements.define("card-news", Cardnews);
+customElements.define("card-news", CardNews);
